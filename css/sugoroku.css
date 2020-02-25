@@ -1,0 +1,54 @@
+/*
+ * �c���[�x���l���s���Ə�
+ * ��3��PG�R���e�X�g�p�x�[�X�����낭�v���O����
+ * CSS�t�@�C��
+ */
+
+/* �X�V���� */
+/* 2020 1/16 �a�c �V�K�쐬 */
+
+#gameArea {
+	display: none;
+}
+
+#boardArea {
+	display:block;
+	width:90%;
+	height:300px;
+	border:1px solid black;
+	overflow: scroll;
+}
+#board span {
+	margin:3px;
+}
+.boardMass {
+	border:1px solid black;
+	width:70px;
+	height:70px;
+	display:inline-block;
+	vertical-align: top;
+}
+.karaMass {
+	width:72px;
+	height:72px;
+	display:inline-block;
+}
+
+.playerMassIcon {
+	display: inline-block;
+}
+#dice {
+	display:inline-block;
+	width:30px;
+	height:30px;
+	text-align:center;
+	border:1px solid black;
+}
+
+.button {
+  background-color: #333;
+  color: #fff;
+}
+.button:hover {
+  background-color: #59b1eb;
+}
